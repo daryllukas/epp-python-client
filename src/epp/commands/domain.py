@@ -13,7 +13,7 @@ single_registrant = """
                     <domain:registrant>%s</domain:registrant>"""
 
 
-single_nameserver = "                <domain:ns><domain:hostObj>%s</domain:hostObj></domain:ns>"
+single_nameserver = "                <domain:hostObj>%s</domain:hostObj>"
 
 single_nameserver2 = "                    <domain:ns><domain:hostObj>%s</domain:hostObj></domain:ns>"
 
@@ -61,7 +61,7 @@ create = """<?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <domain:create xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
                 <domain:name>%(domain_name)s</domain:name>
                 %(period)s
-%(nameservers)s
+                <domain:ns>%(nameservers)s</domain:ns>
                 <domain:registrant>%(registrant)s</domain:registrant>
                 %(contact_admin)s
                 %(contact_billing)s
