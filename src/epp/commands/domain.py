@@ -55,7 +55,7 @@ info = """<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 
 create = """<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
     <command>
         <create>
             <domain:create xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
