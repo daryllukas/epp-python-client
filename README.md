@@ -12,7 +12,7 @@ The library provides an interface to the Extensible Provisioning Protocol:
 
 ## Install
 
-	pip install --upgrade https://github.com/datahaven-net/epp-python-client/archive/master.zip
+	pip install --upgrade https://github.com/daryllukas/epp-python-client/archive/master.zip
 
 
 
